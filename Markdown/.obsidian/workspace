@@ -1,0 +1,99 @@
+{
+  "main": {
+    "id": "f712f3326c546e60",
+    "type": "split",
+    "children": [
+      {
+        "id": "a45eea5d930a0ed9",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "1 Java语言概述/每天一考.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "f4da5bb0df1fd90f",
+    "type": "split",
+    "children": [
+      {
+        "id": "bc0d925b01714f70",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "80fb7c28c4ddde4f",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "35a3f145c0f35ac3",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 257
+  },
+  "right": {
+    "id": "092b296ea42e322c",
+    "type": "split",
+    "children": [
+      {
+        "id": "bde6ed8b2bba6184",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "49b0606d657e0621",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "1 Java语言概述/每天一考.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "a45eea5d930a0ed9",
+  "lastOpenFiles": [
+    "1 Java语言概述/每天一考.md",
+    "1 Java语言概述/Java概述.md",
+    "Java语言概述/图形化操作与命令行操作介绍.md",
+    "未命名.md",
+    "wallhaven-rdwxg1.jpg",
+    "![[wallhaven-rdwxg1.jpg]].md"
+  ]
+}
