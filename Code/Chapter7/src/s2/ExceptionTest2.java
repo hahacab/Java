@@ -12,10 +12,25 @@ import java.io.IOException;
 一旦当方法体执行时，出现异常，仍会在异常代码处生成一个异常类的对象，此对象满足throws后异常类型时，
 就会被抛出。异常代码后续的代码，就不再执行！*/
 public class ExceptionTest2 {
-    public void method2() throws IOException{
+    public static void main(String[] args) {
+       try {
+           method2();
+       }catch (IOException e){
+           e.printStackTrace();
+       }
+       method3();
+    }
+    public static void method3(){
+        try {
+            method2();
+        }catch (IOException e){
+            e.printStackTrace();
+        }
+    }
+    public static void method2() throws IOException{
         method1();
     }
-    public void method1()throws FileNotFoundException, IOException {
+    public static void method1()throws FileNotFoundException, IOException {
         File file = new File("hello.txt");
         FileInputStream fis = new FileInputStream(file);
 
